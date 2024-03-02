@@ -171,7 +171,23 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 9.6rem;
+    margin-top: 7.0rem;
+}
+
+.clients .image a {
+    display: flex;
+    align-items: center;
+    height: 9.1rem;
+    padding: 0 4.2rem;
+    border-radius: 1.2rem;
+}
+
+.clients .image a:first-child {
+    padding: 0;
+}
+
+.clients .image a:hover {
+    box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.1);
 }
 
 /* Guides */
