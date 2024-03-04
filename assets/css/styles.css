@@ -70,6 +70,7 @@ a {
     position: relative;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background: #e6f0ff;
     height: calc(100vh - 9rem);
 }
@@ -119,9 +120,7 @@ a {
     width: 51%;
 }
 
-.hero {
-    margin-top: 13rem;
-}
+
 
 .hero .sub-title {
     color: #687690;
